@@ -4,7 +4,7 @@ const port = 3000;
 
 // GET method for root directory
 app.get('/',(req, res)=>{
-    res.send('<h1>Express Demo App</h1> <h4>Message: Success al sa scriPts ne sa sa scrits (P izbrisano)</h4> <p>Version 2.0</p>');
+    res.send('<h1>Express Demo App</h1> <h4>Message: Good</h4> <p>Version 2.0</p>');
 })
 
 app.get('/products',(req,res)=>{
